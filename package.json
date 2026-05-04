@@ -1,0 +1,23 @@
+{
+  "name": "rawreach-agency-site",
+  "version": "1.0.0",
+  "description": "Premium RawReach SMMA website with static pages and a lightweight Node backend.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "check": "node --check server.js"
+  },
+  "keywords": [
+    "rawreach",
+    "smma",
+    "agency",
+    "marketing"
+  ],
+  "author": "RawReach Agency",
+  "license": "UNLICENSED",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  }
+}

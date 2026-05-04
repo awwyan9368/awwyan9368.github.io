@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Contact RawReach Agency by email, phone, WhatsApp, or the strategy call form.">
+    <title>Contact | RawReach Agency</title>
+    <link rel="icon" type="image/png" href="/assets/rawreach-logo.png">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="nav-wrap">
+        <a class="brand" href="/" aria-label="RawReach home"><img src="/assets/rawreach-logo.png" alt="RawReach logo"><span class="brand-mark"><span class="brand-name">RawReach</span><span class="brand-sub">Agency</span></span></a>
+        <nav class="main-nav" data-nav aria-label="Main navigation"><a href="/">Home</a><a href="/services">Services</a><a href="/reviews">Reviews</a><a href="/about">About Us</a><a href="/contact">Contact</a></nav>
+        <div class="nav-actions"><a class="btn dark" href="/contact">Book Your Call</a><button class="menu-toggle" data-menu-toggle type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button></div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero compact">
+        <div class="hero-content">
+          <p class="eyebrow">Contact</p>
+          <h1>Start the RawReach conversation.</h1>
+          <p class="hero-copy">Tell us what you sell, who you want to reach, and where your current growth system is leaking attention.</p>
+        </div>
+      </section>
+
+      <section class="section alt">
+        <div class="section-inner contact-grid">
+          <div class="grid">
+            <article class="contact-card">
+              <h3>WhatsApp Chatbot</h3>
+              <p>Best for quick campaign questions, lead-gen inquiries, and booking a strategy call.</p>
+              <a href="https://wa.me/917452018506?text=Hi%20RawReach%2C%20I%20want%20to%20talk%20about%20growth." target="_blank" rel="noreferrer">+91 74520 18506</a>
+            </article>
+            <article class="contact-card">
+              <h3>Email</h3>
+              <p>Reach the RawReach admin and HR inboxes directly.</p>
+              <ul class="contact-list">
+                <li><a href="mailto:adminrawreach@gmail.com">adminrawreach@gmail.com</a></li>
+                <li><a href="mailto:ayanrawreachhr@gmail.com">ayanrawreachhr@gmail.com</a></li>
+              </ul>
+            </article>
+            <article class="contact-card">
+              <h3>Phone</h3>
+              <p>Use this contact number for direct business inquiries.</p>
+              <a href="tel:+919368282289">+91 93682 82289</a>
+            </article>
+          </div>
+
+          <form class="contact-form" data-form data-endpoint="/api/contact">
+            <h2>Book a Strategy Call</h2>
+            <div class="form-row">
+              <label>Name<input name="name" autocomplete="name" required></label>
+              <label>Email<input type="email" name="email" autocomplete="email" required></label>
+            </div>
+            <div class="form-row">
+              <label>Phone<input name="phone" autocomplete="tel" required></label>
+              <label>Company<input name="company" autocomplete="organization"></label>
+            </div>
+            <div class="form-row">
+              <label>Service<select name="service"><option>Paid Ads</option><option>Social Media Management</option><option>Lead Generation</option><option>Appointment Setting</option><option>Full Growth System</option></select></label>
+              <label>Monthly Budget<select name="budget"><option>Under 50,000 INR</option><option>50,000 - 1,50,000 INR</option><option>1,50,000 - 5,00,000 INR</option><option>5,00,000+ INR</option></select></label>
+            </div>
+            <label>Message<textarea name="message" required placeholder="Tell us about your offer, audience, and current growth goal."></textarea></label>
+            <label class="hp-field">Website<input name="website" tabindex="-1" autocomplete="off"></label>
+            <button class="btn dark" type="submit">Send Inquiry</button>
+            <p class="form-note" data-form-note></p>
+          </form>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-inner">
+          <div class="section-head">
+            <div>
+              <p class="section-kicker">FAQ</p>
+              <h2>Common questions before we talk.</h2>
+            </div>
+          </div>
+          <div class="faq-list">
+            <article class="faq-item"><h3>What does RawReach need before launching campaigns?</h3><p>A clear offer, target audience, brand assets, access to ad accounts when needed, and agreement on how leads should be routed.</p></article>
+            <article class="faq-item"><h3>Can leads go directly to WhatsApp?</h3><p>Yes. The site includes a floating WhatsApp button pointed to +91 74520 18506, and campaign flows can route prospects there too.</p></article>
+            <article class="faq-item"><h3>Where are contact form submissions stored?</h3><p>The backend saves inquiries in a local JSONL file so requests are captured even before an email provider or CRM is connected.</p></article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-top">
+          <div class="footer-brand"><img src="/assets/rawreach-logo.png" alt="RawReach logo"><h3>RawReach Agency</h3><p>Premium SMMA systems for reach, response, and revenue.</p></div>
+          <div><h3>Pages</h3><ul class="footer-links"><li><a href="/services">Services</a></li><li><a href="/reviews">Reviews</a></li><li><a href="/about">About Us</a></li><li><a href="/contact">Contact</a></li></ul></div>
+          <div><h3>Contact</h3><ul class="footer-contact"><li><a href="mailto:adminrawreach@gmail.com">adminrawreach@gmail.com</a></li><li><a href="mailto:ayanrawreachhr@gmail.com">ayanrawreachhr@gmail.com</a></li><li><a href="tel:+919368282289">+91 93682 82289</a></li></ul></div>
+        </div>
+        <div class="footer-bottom"><span>© <span data-year></span> RawReach Agency. All rights reserved.</span><div class="legal-links"><a href="/privacy">Privacy</a><a href="/terms">Terms</a></div></div>
+      </div>
+    </footer>
+    <a class="whatsapp-float" href="https://wa.me/917452018506?text=Hi%20RawReach%2C%20I%20want%20to%20talk%20about%20growth." target="_blank" rel="noreferrer" aria-label="Chat with RawReach on WhatsApp" title="Chat with RawReach on WhatsApp">WA</a>
+    <script src="/app.js" defer></script>
+  </body>
+</html>
